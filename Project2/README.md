@@ -39,7 +39,7 @@
     
 ## **不同排程法的比較**
 ### **平均等待時間（Average Waiting Time）**
-以input1.txt 為例(方法六, Time Slice為1)，左圖為輸入檔案內容，右圖為output檔內容，記錄各個Process ID在各個方法中的Waiting Time。
+以input1.txt 為例(方法六, Time Slice為1)，左圖為輸入檔案內容，右圖為output檔內容，記錄各個Process ID在各個方法中的Waiting Time。  
 <img src="resources/1.png" width="60%">  
 
 下表為 input1.txt, input2.txt, input3.txt各個方法的Average Waiting Time:  
@@ -48,7 +48,7 @@
 Waiting Time 為Process在queue 中等待被CPU執行的時間，而從上表中可以看出，無論輸入哪個檔案，Shortest Remaining Time First排程皆可得到最小的平均等待時間，我認為原因是此排程每次都會在waiting queue中挑出CPU Burst Time最小的Process 去執行，因此減少許多Process在waiting queue 等待的時間。
 
 ### **工作往返時間（Turnaround Time）**
-以input1.txt 為例(方法六, Time Slice為1)，左圖為輸入檔案內容，右圖為output檔內容，記錄各個Process ID在各個方法中的Turnaround Time。
+以input1.txt 為例(方法六, Time Slice為1)，左圖為輸入檔案內容，右圖為output檔內容，記錄各個Process ID在各個方法中的Turnaround Time。  
 <img src="resources/3.png" width="60%">  
 
 下表為 input1.txt, input2.txt, input3.txt各個方法的Turnaround Time的總和:  
