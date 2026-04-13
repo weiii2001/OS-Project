@@ -33,7 +33,7 @@
     
 ## **不同方法的比較**
 ### **Page Fault 次數**
-以input1_method6.txt及input2.txt為例(方法六, Page Frames為3)，下圖為輸入檔案內容。
+以input1_method6.txt及input2.txt為例(方法六, Page Frames為3)，下圖為輸入檔案內容。  
 <img src="resources/1.png" width="60%">  
 下表為 input1_method6.txt及 input2.txt各個方法的 Page Fault次數:  
 <img src="resources/2.png" width="60%">  
@@ -41,7 +41,7 @@
 Page Fault 為當需要參考某一 Page時，若該Page並未在Queue中，代表需要去OS中存取該Page 的資料，從input2.txt 的各個數據中可以看到，LFU+LRU置換法的Page Fault次數是最低的，其原因我認為是因為他根據以往的數據，當發生頁置換時，優先將最不常使用到的頁置換出去，才會相較其他方法有比較好的表現。
 
 ### **Page Replace 次數**
-以input1_method6.txt及input2.txt為例(方法六, Page Frames為3)，下圖為輸入檔案內容。
+以input1_method6.txt及input2.txt為例(方法六, Page Frames為3)，下圖為輸入檔案內容。  
 <img src="resources/3.png" width="60%">  
 
 下表為 input1_method6.txt及 input2.txt各個方法的 Page Replace次數:   
